@@ -1,0 +1,19 @@
+.app-wrapper {
+    display: grid;
+    grid-template-rows: 60xp 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: "h h";
+    grid-template-areas: "n c";
+}
+
+.header {
+    grid-area: h;
+}
+
+.nav {
+    grid-area: n;
+}
+
+.content {
+    grid-area: c;
+}
