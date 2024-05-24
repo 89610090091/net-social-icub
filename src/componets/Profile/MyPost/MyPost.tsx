@@ -11,9 +11,8 @@ const MyPost = () => {
                 <button>Remove</button>
             </div>
             <div>
-                <Post />
-                <Post />
-                <Post />
+                <Post message='hello, how are you?' like='15' />
+                <Post message='Its my page App' like='17' />
             </div>
         </div>
     )
