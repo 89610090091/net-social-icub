@@ -10,7 +10,7 @@ const MyPost = () => {
                 <button>Add Post</button>
                 <button>Remove</button>
             </div>
-            <div className={s.post}>
+            <div>
                 <Post />
                 <Post />
                 <Post />
