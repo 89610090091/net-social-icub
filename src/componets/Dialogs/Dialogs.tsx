@@ -1,3 +1,6 @@
+// import React from 'react';
+// import r from './Dialogs.module.css';
+
 const Dialogs = (props: any) => {
     return (
         <div>
