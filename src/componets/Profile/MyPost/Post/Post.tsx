@@ -13,4 +13,3 @@ const Post = (props: any) => {
 }
 
 export default Post;
-
