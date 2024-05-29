@@ -1,6 +1,7 @@
 .nav {
     grid-area: n;
     background-color: rgb(28, 236, 90);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .item a {
@@ -8,5 +9,5 @@
 }
 
 .item.active {
-    color: rgb(231, 22, 176);
+    color: rgb(255, 255, 0);
 }
