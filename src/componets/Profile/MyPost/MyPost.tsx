@@ -11,13 +11,11 @@ const MyPost = () => {
                 <button>Remove</button>
             </div>
             <div>
-                <Post />
-                <Post />
-                <Post />
+                <Post message='hello, how are you?' like='12' />
+                <Post message='Its my page App' like='25' />
             </div>
         </div>
     )
 }
 
 export default MyPost;
-

@@ -1,9 +1,9 @@
 .item {
+    background-color: rgb(96, 127, 127);
     color: white;
 
     img {
         width: 50px;
-        border-radius: 10px;
+        border-radius: 15px;
     }
-
 }
