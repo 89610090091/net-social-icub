@@ -1,4 +1,4 @@
-import r from './Header.module.css';
+import r from './Dialogs.module.css';
 
 const Dialogs = (props: any) => {
     return (
