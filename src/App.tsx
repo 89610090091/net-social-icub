@@ -12,8 +12,9 @@ function App() {
       <Navbar />
       <div className={'app-wrapper-content'}>
         <Dialogs />
+        {/* <Profile /> */}
       </div>
-      {/* <Profile /> */}
+
     </div>
   );
 }
