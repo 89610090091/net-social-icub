@@ -5,6 +5,9 @@ import Navbar from './componets/Navbar/Navbar';
 import Profile from './componets/Profile/Profile';
 import Dialogs from './componets/Dialogs/Dialogs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import News from './componets/News/News';
+import Settings from './componets/Settings/Settings';
+import Music from './componets/Music/Music';
 
 function App(props: any) {
   return (
@@ -16,6 +19,9 @@ function App(props: any) {
           <Routes>
             <Route path='/dialogs' element={<Dialogs />} />
             <Route path='/profile' element={<Profile />} />
+            <Route path='/News' element={<News />} />
+            <Route path='/Music' element={<Music />} />
+            <Route path='/Settings' element={<Settings />} />
           </Routes>
         </div>
       </div>
@@ -25,6 +31,6 @@ function App(props: any) {
 
 export default App;
 
- 
+
 
 
