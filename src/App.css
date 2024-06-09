@@ -14,3 +14,7 @@
     grid-area: c;
     background-color: rgb(40, 159, 238);
 }
+
+a {
+    text-decoration: none;
+}
